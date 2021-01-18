@@ -4,7 +4,9 @@
   "description": "TF Automation Test Framework",
   "main": "index.js",
   "scripts": {
-    "ots": "npx cypress open"
+    "ots": "npx cypress open",
+    "rts": "npx cypress run",
+    "tst": "npm run rts -- --spec cypress\\tests\\sampleTest.js"
   },
   "author": "Vinit Naik",
   "license": "ISC",
