@@ -1,0 +1,15 @@
+{
+  "name": "tfatf",
+  "version": "1.0.0",
+  "description": "TF Automation Test Framework",
+  "main": "index.js",
+  "scripts": {
+    "ots": "npx cypress open"
+  },
+  "author": "Vinit Naik",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.2.1",
+    "cypress-sql-server": "^1.0.0"
+  }
+}
